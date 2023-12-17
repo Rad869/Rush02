@@ -73,7 +73,7 @@ void	print_hundred_word(char **collection, int nb)
 	{
 		print_line_hundred(nb / 100, 3, collection);
 		if (nb % 100)
-			write(1, "and", 5);
+			write(1, "and", 3);
 	}
 	if (nb % 100)
 	{

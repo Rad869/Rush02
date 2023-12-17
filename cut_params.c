@@ -129,11 +129,11 @@ void	print_total(char *str, char **collection)
 	}
 	writeqlq(str, &i, collection);
 }
-
+/*
 int main(int c, char *ar[])
 {
 	int     i;
     char    *v = build_str_dict();
     char    **collection = ft_split(v, &i);
 	print_total(ar[1], collection);
-}
+}*/

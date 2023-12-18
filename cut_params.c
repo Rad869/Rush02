@@ -6,7 +6,7 @@
 /*   By: rrabeari <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/17 13:36:05 by rrabeari          #+#    #+#             */
-/*   Updated: 2023/12/17 18:21:05 by rrabeari         ###   ########.fr       */
+/*   Updated: 2023/12/18 17:35:44 by rrabeari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -37,6 +37,7 @@ void	print_mill_1_6(int pow, char **collection)
 {
 	int	index_mill;
 
+	index_mill = 0;
 	if (pow == 1)
 		index_mill = detect_mill(collection, "1000");
 	else if (pow == 2)
@@ -56,6 +57,7 @@ void	print_mill_7_12(int pow, char **coll)
 {
 	int	index;
 
+	index = 0;
 	if (pow == 7)
 		index = detect_mill(coll, "1000000000000000000000");
 	else if (pow == 8)

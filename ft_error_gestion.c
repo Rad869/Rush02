@@ -51,4 +51,5 @@ int	check_entrie(int argc, char **argv)
 		else
 			return (1);
 	}
+	return (0);
 }
